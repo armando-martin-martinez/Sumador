@@ -16,12 +16,13 @@ namespace Sumador
         [STAThread]
         static void Main()
         {
-            int a = 0, b = 0; int sumaab = 0,x=0;
+            int a;
+            int b;
+            int sumaab;
+            
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1(5,9,sumaab));
-            x = sumaab;
-            
+            Application.Run(new Form1(5,9,&sumaab));   
         }
     }
 }
