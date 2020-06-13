@@ -15,7 +15,7 @@ namespace Sumador
         int numero1;
         int numero2;
         int* sumatotal;
-        public unsafe Form1(int a, int b, int& sumaab)
+        public unsafe Form1(int a, int b, int & sumaab)
         {
 
             InitializeComponent();
