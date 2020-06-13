@@ -41,8 +41,6 @@ namespace Sumador
             this.label2.Text = numero2.ToString();
             sumatotal = numero1 + numero2;
             this.label3.Text = sumatotal.ToString();
-      
-
         }
     }
 }
